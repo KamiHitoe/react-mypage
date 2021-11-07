@@ -10,11 +10,11 @@ const contents = [
 const sectionContents = [
   {
     title: <a id={contents[0].toLowerCase()}>{contents[0]}</a>,
-    text: "I am web researcher, student"
+    text: "I am Japanese and software engineer beginner. I'm learning Web Development, Data Analysis"
   },
   {
     title: <a id={contents[1].toLowerCase()}>{contents[1]}</a>,
-    text: "React, GraphQL, Python"
+    text: "React.js, GraphQL, Python"
   },
   {
     title: <a id={contents[2].toLowerCase()}>{contents[2]}</a>,
