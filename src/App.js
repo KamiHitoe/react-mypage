@@ -3,6 +3,7 @@ import Section from './components/Section';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import List from './components/List';
+import ButtonAppBar from './components/ButtonAppBar';
 import {
   sectionContents,
   socialContents,
@@ -12,11 +13,12 @@ import {
 export default function App() {
   return (
     <div>
+      <ButtonAppBar />
       <Header />
 
       {/* loop Section */}
       {sectionContents.map((e, i) => {
-        if (e.title === "Social") {
+        if (i === 3) {
           return (
             /* render list */
             <Section key={i} title={e.title} text={e.text}>
