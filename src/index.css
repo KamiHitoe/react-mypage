@@ -1,5 +1,14 @@
 
+section {
+  margin: 40px 10px;
+}
+
+footer {
+  text-align: center;
+}
+
 .heading {
-  color: cyan;
   border-bottom: solid 1px grey;
 }
+
+
