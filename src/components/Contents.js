@@ -1,10 +1,29 @@
 import React from 'react';
 
+const contents = [
+  'About',
+  'Learning',
+  'Works',
+  'Social',
+]
+
 const sectionContents = [
-  {title: "About", text: "I am web researcher, student"},
-  {title: "Articles", text: "Machine learning"},
-  {title: "Self-dev", text: ""},
-  {title: "Social", text: ""}
+  {
+    title: <a id={contents[0].toLowerCase()}>{contents[0]}</a>,
+    text: "I am web researcher, student"
+  },
+  {
+    title: <a id={contents[1].toLowerCase()}>{contents[1]}</a>,
+    text: "React, GraphQL, Python"
+  },
+  {
+    title: <a id={contents[2].toLowerCase()}>{contents[2]}</a>,
+    text: "coming soon ..."
+  },
+  {
+    title: <a id={contents[3].toLowerCase()}>{contents[3]}</a>,
+    text: ""
+  },
 ]
 
 const socialContents = [
@@ -35,4 +54,4 @@ const socialContents = [
   >note</a>,
 ]
 
-export { sectionContents, socialContents };
+export { contents, sectionContents, socialContents };
